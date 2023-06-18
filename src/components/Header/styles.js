@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import createGlobalStyle from '../../styles/global';
-
 export const Container = styled.header`
     grid-area: header;
 
@@ -49,7 +47,7 @@ export const Footer = styled.div`
         background-color: ${({theme}) => theme.COLORS.TOMATO_100};
         border-radius: 50%;
 
-        font-family: var(--poppins);
+        font-family: 'Poppins', sans-serif;
         font-weight: 500;
         font-size: 14px;
     }
