@@ -6,10 +6,6 @@ export const Container = styled.span`
     padding: 4px 8px;
     margin-right: 2.4rem;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     background-color: ${({theme}) => theme.COLORS.DARK_1000};
     border-radius: 5px;
 

@@ -10,10 +10,14 @@ export const Container = styled.div`
     "header"
     "content"
     "footer";
+
+    > main { 
+        grid-area: content;
+        overflow-y: auto;
+        padding: 1.6rem 5.6rem;
+    }
 `;
 
 export const Content = styled.div`
-
-    
-
+    max-width: 316px;
 `;
