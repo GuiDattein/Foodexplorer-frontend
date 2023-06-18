@@ -11,3 +11,9 @@ export const Container = styled.div`
     "content"
     "footer";
 `;
+
+export const Content = styled.div`
+
+    
+
+`;
