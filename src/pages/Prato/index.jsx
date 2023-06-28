@@ -2,12 +2,10 @@ import { Container, Content } from './styles';
 
 import { Header } from '../../components/Header';
 import { ButtonText } from '../../components/ButtonText';
-import { Section } from '../../components/Section';
 import { Button } from '../../components/Button';
 import { Footer } from '../../components/Footer';
 import { Tags } from '../../components/Tags';
 import ravanello from '../../assets/ravanello.svg';
-import Receipt from '../../assets/Receipt.svg';
 import { Stepper } from '../../components/Stepper';
 
 export function Prato() {
