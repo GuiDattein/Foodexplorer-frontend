@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.span`
-    width: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     height: 32px;
     padding: 4px 8px;
-    margin-right: 2.4rem;
 
     background-color: ${({theme}) => theme.COLORS.DARK_1000};
     border-radius: 5px;
