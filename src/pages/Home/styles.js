@@ -16,6 +16,14 @@ export const Container = styled.div`
         overflow-y: auto;
         padding: 1.6rem 3rem;
     }
+
+    > main::-webkit-scrollbar{
+        width: 8px;
+        background: ${({theme}) => theme.COLORS.DARK_700};
+    }
+    > main::-webkit-scrollbar-thumb{
+        background: ${({theme}) => theme.COLORS.DARK_900};
+    }
 `;
 
 export const Content = styled.div`
@@ -57,6 +65,20 @@ export const Content = styled.div`
                 font-size: 1.2rem;
                 font-weight: 400;
             }
+        }
+    }
+
+    > Section {
+        .slides{
+            overflow-x: auto;
+        }
+        > .slides::-webkit-scrollbar{
+            display: none;
+        }
+
+        .cards{
+            display: flex;
+            gap: 16px;
         }
     }
 `;

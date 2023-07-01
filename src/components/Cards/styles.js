@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    width: 210px;
+    min-width: 210px;
     padding: 24px;
     text-align: center;
 
@@ -18,8 +18,8 @@ export const Container = styled.div`
     }
 
     > img{
-        width: 8.8rem;
-        height: 8.8rem;
+        width: 88px;
+        height: 88px;
         margin-bottom: 12px;
     }
 
