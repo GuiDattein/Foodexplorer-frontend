@@ -2,13 +2,14 @@ import { Container, Content } from './styles';
 
 import { Header } from '../../components/Header';
 import { ButtonText } from '../../components/ButtonText';
-import { ButtonPedido } from '../../components/ButtonPedido';
+import { Button } from '../../components/Button';
 import { Footer } from '../../components/Footer';
 import { Tags } from '../../components/Tags';
 import ravanello from '../../assets/ravanello.svg';
+import Receipt from '../../assets/Receipt.svg';
 import { Stepper } from '../../components/Stepper';
 
-export function Prato() {
+export function Prato(prato, descricao, value) {
 
   return(
     <Container>
@@ -20,9 +21,9 @@ export function Prato() {
 
           <div class="descricao">
             <img src={ravanello} alt="" />
-            <h2>Salada Ravanello</h2>
+            <h2>{prato="Salada Ravanello"}</h2>
             <p>
-              Rabanetes, folhas verdes e molho agridoce salpicados com gergelim.
+              {descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim."}
             </p>
           </div>
 
@@ -37,7 +38,10 @@ export function Prato() {
 
           <div class="pedir">
             <Stepper/>
-            <ButtonPedido title="pedir - R$ 0,00 " /*loading*/ />           
+            <Button img={Receipt} title="pedir - " /*loading*/>
+              <span>RS {value="47,99"}</span>
+            </Button>     
+
           </div>
         </Content>
       </main>

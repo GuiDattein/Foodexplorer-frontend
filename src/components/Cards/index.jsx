@@ -1,10 +1,10 @@
 import { Container } from './styles';
 
 import { Stepper } from '../../components/Stepper';
-import { ButtonIncluir } from '../../components/ButtonIncluir';
+import { Button } from '../../components/Button';
 
 
-export function Cards({ data, image, ...rest}) {
+export function Cards({ title, value, image, ...rest}) {
     return(
         <Container {...rest}>
             <div class="favorite">
@@ -14,14 +14,14 @@ export function Cards({ data, image, ...rest}) {
             </div>
             <img src={image} alt="" />
             <div class="details">
-                <a>{data.title} &gt; </a>
+                <a>{title} &gt; </a>
                 <p> 
-                    R$ {data.value}
+                    R$ {value}
                 </p>
             </div>
             <div class="include">
                 <Stepper/>
-                <ButtonIncluir title="Incluir" />
+                <Button title="Incluir" />
             </div>
         </Container>
     );
