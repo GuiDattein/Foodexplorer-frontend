@@ -4,13 +4,13 @@ import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styles/global';
 import theme from './styles/theme';
 
-import { Home } from './pages/Home';
+import { Prato } from './pages/Prato';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Home />
+      <Prato />
     </ThemeProvider>
   </React.StrictMode>,
 )

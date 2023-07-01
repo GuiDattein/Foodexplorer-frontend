@@ -19,7 +19,7 @@ export const Container = styled.header`
     }
     @media(min-width: 1024px){
         padding: 0 12.3rem;
-        transition: 2s;
+        transition: .7s;
     }
 `;
 

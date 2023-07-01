@@ -58,4 +58,8 @@ export const Content = styled.div`
 
         margin-top: 48px;
     }
+
+    @media(max-width: 799px){
+        
+    }
 `;

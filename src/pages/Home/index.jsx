@@ -7,7 +7,8 @@ import { Footer } from '../../components/Footer';
 import { Section } from '../../components/Section';
 import { Cards } from '../../components/Cards';
 import ravanello from '../../assets/ravanello.svg';
-import banner2 from '../../assets/banner1.png';
+import banner1 from '../../assets/banner1.png';
+import banner2 from '../../assets/banner2.png';
 
 export function Home() {
     return(
@@ -16,8 +17,15 @@ export function Home() {
 
             <main>
                 <Content>
-                    <div class="banner">
+                    <div class="banner-desktop">
                         <img src={banner2} alt="" /> 
+                        <div class="contentBanner">
+                            <h2>Sabores inigualáveis</h2>
+                            <p>Sinta o cuidado do preparo com ingrdientes selecionados</p>
+                        </div>
+                    </div>
+                    <div class="banner-mobile">
+                        <img src={banner1} alt="" /> 
                         <div class="contentBanner">
                             <h2>Sabores inigualáveis</h2>
                             <p>Sinta o cuidado do preparo com ingrdientes selecionados</p>
@@ -31,34 +39,34 @@ export function Home() {
                             <div class="cards">
                                 <Cards 
                                 image={ravanello}
-                                data={{
-                                    title: 'Salada Ravanello',
-                                    value: '47,99'
-                                }}/>
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
                                 <Cards 
                                 image={ravanello}
-                                data={{
-                                    title: 'Salada Ravanello',
-                                    value: '47,99'
-                                }}/>
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
                                 <Cards 
                                 image={ravanello}
-                                data={{
-                                    title: 'Salada Ravanello',
-                                    value: '47,99'
-                                }}/>
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
                                 <Cards 
                                 image={ravanello}
-                                data={{
-                                    title: 'Salada Ravanello',
-                                    value: '47,99'
-                                }}/>
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
                                 <Cards 
                                 image={ravanello}
-                                data={{
-                                    title: 'Salada Ravanello',
-                                    value: '47,99'
-                                }}/>
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
+                                <Cards 
+                                image={ravanello}
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
                             </div>
                         </div>
                     </Section>
@@ -68,75 +76,75 @@ export function Home() {
                             <button class="arrow-left">&lt;</button>
                             <button class="arrow-right">&gt;</button>
                             <div class="cards">
-                                    <Cards 
-                                    image={ravanello}
-                                    data={{
-                                        title: 'Salada Ravanello',
-                                        value: '47,99'
-                                    }}/>
-                                    <Cards 
-                                    image={ravanello}
-                                    data={{
-                                        title: 'Salada Ravanello',
-                                        value: '47,99'
-                                    }}/>
-                                    <Cards 
-                                    image={ravanello}
-                                    data={{
-                                        title: 'Salada Ravanello',
-                                        value: '47,99'
-                                    }}/>
-                                    <Cards 
-                                    image={ravanello}
-                                    data={{
-                                        title: 'Salada Ravanello',
-                                        value: '47,99'
-                                    }}/>
-                                    <Cards 
-                                    image={ravanello}
-                                    data={{
-                                        title: 'Salada Ravanello',
-                                        value: '47,99'
-                                    }}/>
+                                <Cards 
+                                image={ravanello}
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
+                                <Cards 
+                                image={ravanello}
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
+                                <Cards 
+                                image={ravanello}
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
+                                <Cards 
+                                image={ravanello}
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
+                                <Cards 
+                                image={ravanello}
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
+                                <Cards 
+                                image={ravanello}
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
                             </div>
                         </div>
                     </Section>
 
-                    <Section title="Bebidas">
+                    <Section title="RBebidas">
                         <div class="slides">
                             <button class="arrow-left">&lt;</button>
                             <button class="arrow-right">&gt;</button>
                             <div class="cards">
                                 <Cards 
                                 image={ravanello}
-                                data={{
-                                    title: 'Salada Ravanello',
-                                    value: '47,99'
-                                }}/>
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
                                 <Cards 
                                 image={ravanello}
-                                data={{
-                                    title: 'Salada Ravanello',
-                                    value: '47,99'
-                                }}/>
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
                                 <Cards 
                                 image={ravanello}
-                                data={{
-                                    title: 'Salada Ravanello',
-                                    value: '47,99'
-                                }}/>
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
                                 <Cards 
                                 image={ravanello}
-                                data={{
-                                    title: 'Salada Ravanello',
-                                    value: '47,99'
-                                }}/>
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
                                 <Cards 
                                 image={ravanello}
-                                data={{
-                                    title: 'Salada Ravanello',
-                                    value: '47,99'
-                                }}/>
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
+                                <Cards 
+                                image={ravanello}
+                                title="Salada Ravanello"
+                                value="47,99"
+                                />
                             </div>
                         </div>
                     </Section>

@@ -33,12 +33,49 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
 
+    > .banner-desktop {
+        position: relative;
 
-    > .banner{
+        display: flex;
+        align-items: center;
+
+        max-width: 112rem;
+        height: 26rem;
+        margin-top: 164px;
+        border-radius: 2.9px;
+
+        background: linear-gradient(180deg, #091E26 0%, #00131C 100%);
+
+        img {
+            position: absolute;
+            bottom: 0;
+            left: -55px;
+        }
+
+        .contentBanner{
+            position: absolute;
+            right: 60px;
+            top: 90px;
+            h2{
+                font-size: 4rem;
+                font-weight: 500;
+            }
+            p{
+                font-size: 1.6rem;
+                font-weight: 400;
+            }
+        }
+
+        @media(max-width: 799px){
+            display: none;
+        }
+    }
+
+    > .banner-mobile{
         position: relative;
         display: flex;
 
-        max-width: 37.6rem;
+        max-width: 80rem;
         height: 12rem;
         margin-top: 44px;
         border-radius: 2.9px;
@@ -49,6 +86,12 @@ export const Content = styled.div`
             position: absolute;
             bottom: 0;
             left: -30px;
+
+            @media(min-width: 650px){
+                position: absolute;
+                bottom: 0;
+                left: 10px;
+            }
         }
 
         .contentBanner{
@@ -56,15 +99,23 @@ export const Content = styled.div`
             right: 20px;
             top: 30px;
             h2{
-                max-width: 21.5rem;
                 font-size: 1.8rem;
                 font-weight: 600;
             }
             p{
-                max-width: 20rem;
                 font-size: 1.2rem;
                 font-weight: 400;
             }
+
+            @media(max-width: 590px){
+                max-width: 30rem;
+            }
+            @media(max-width: 528px){
+                max-width: 20rem;
+            }
+        }
+        @media(min-width: 800px){
+                display: none;
         }
     }
 
@@ -105,6 +156,17 @@ export const Content = styled.div`
         .cards{
             display: flex;
             gap: 16px;
+        }
+
+        @media(min-width: 800px){
+            .arrow-left, .arrow-right{
+                font-size: 40px;
+                width: 60px;
+            }      
+            
+            .cards{
+                    margin-left: 30px;
+                }
         }
     }
 `;
