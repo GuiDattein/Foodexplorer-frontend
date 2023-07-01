@@ -1,3 +1,5 @@
+
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 <div align="center"> 
   <h1>Food Explorer - Front-end</h1>
   O desafio foi desenvolver o "food explorer", um menu interativo para um restaurante fictício </br></br></br>
