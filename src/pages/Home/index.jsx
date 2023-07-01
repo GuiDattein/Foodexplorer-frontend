@@ -1,6 +1,6 @@
 import { Container, Content } from './styles';
 
-import { FiSearch } from 'react-icons/fi';
+import { FiChevronRight, FiChevronLeft  } from 'react-icons/fi';
 
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
@@ -26,6 +26,8 @@ export function Home() {
 
                     <Section title="Refeições">
                         <div class="slides">
+                            <button class="arrow-left">&lt;</button>
+                            <button class="arrow-right">&gt;</button>
                             <div class="cards">
                                 <Cards 
                                 image={ravanello}
@@ -63,7 +65,9 @@ export function Home() {
 
                     <Section title="Pratos principais">
                         <div class="slides">
-                                <div class="cards">
+                            <button class="arrow-left">&lt;</button>
+                            <button class="arrow-right">&gt;</button>
+                            <div class="cards">
                                     <Cards 
                                     image={ravanello}
                                     data={{
@@ -94,12 +98,14 @@ export function Home() {
                                         title: 'Salada Ravanello',
                                         value: '47,99'
                                     }}/>
-                                </div>
+                            </div>
                         </div>
                     </Section>
 
                     <Section title="Bebidas">
-                    <div class="slides">
+                        <div class="slides">
+                            <button class="arrow-left">&lt;</button>
+                            <button class="arrow-right">&gt;</button>
                             <div class="cards">
                                 <Cards 
                                 image={ravanello}
@@ -132,7 +138,7 @@ export function Home() {
                                     value: '47,99'
                                 }}/>
                             </div>
-                    </div>
+                        </div>
                     </Section>
                 </Content>
             </main>

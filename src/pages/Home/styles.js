@@ -69,11 +69,37 @@ export const Content = styled.div`
     }
 
     > Section {
+        position: relative;
         .slides{
             overflow-x: auto;
         }
         > .slides::-webkit-scrollbar{
             display: none;
+        }
+
+        .arrow-left, .arrow-right{
+            position: absolute;
+            top: 58px;
+            bottom: 0;
+
+            font-size: 20px;
+            color: ${({theme}) => theme.COLORS.LIGHT_100};
+            
+            width: 25px;
+            text-align: center;
+            
+            cursor: pointer;
+            border: none;
+            background: linear-gradient(to left, rgba(0, 10, 15, 0.25) 0%, #000A0F 150%);
+            z-index: 1;
+        }
+
+        .arrow-right{
+            left: auto;
+            right: 0;
+            text-align: right;
+            color: ${({theme}) => theme.COLORS.LIGHT_100};
+            background: linear-gradient(to right, rgba(0, 10, 15, 0.27) 0%, #000A0F 150%);
         }
 
         .cards{
