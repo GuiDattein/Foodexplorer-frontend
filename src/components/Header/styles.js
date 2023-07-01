@@ -23,9 +23,11 @@ export const Title = styled.div`
     align-items: center;
     gap: .8rem;
 
-    font-family: var(--roboto);
-    font-weight: 700;
-    font-size: 2.11rem;
+    > h1{
+        font-family: var(--roboto);
+        font-weight: 700;
+        font-size: 2.11rem;
+    }
 
 `;
 

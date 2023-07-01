@@ -2,7 +2,7 @@ import { Container, Content } from './styles';
 
 import { Header } from '../../components/Header';
 import { ButtonText } from '../../components/ButtonText';
-import { Button } from '../../components/Button';
+import { ButtonPedido } from '../../components/ButtonPedido';
 import { Footer } from '../../components/Footer';
 import { Tags } from '../../components/Tags';
 import ravanello from '../../assets/ravanello.svg';
@@ -37,7 +37,7 @@ export function Prato() {
 
           <div class="pedir">
             <Stepper/>
-            <Button title="pedir - R$ 0,00 " /*loading*/ />           
+            <ButtonPedido title="pedir - R$ 0,00 " /*loading*/ />           
           </div>
         </Content>
       </main>

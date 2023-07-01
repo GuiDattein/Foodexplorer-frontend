@@ -7,8 +7,3 @@ export const Container = styled.section`
         margin-bottom: 2.4rem;
     }
 `;
-
-export const Cards = styled.section`
-    display: flex;
-    gap: 16px;
-`;

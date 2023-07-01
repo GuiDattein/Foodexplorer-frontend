@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 import Receipt from "../../assets/Receipt.svg";
 
-export function Button({ title, loading = false, ...rest }){
+export function ButtonPedido({ title, loading = false, ...rest }){
     return(
         <Container 
             type="button"

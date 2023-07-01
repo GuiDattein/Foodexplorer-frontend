@@ -14,15 +14,49 @@ export const Container = styled.div`
     > main { 
         grid-area: content;
         overflow-y: auto;
-        padding: 1.6rem 5rem;
+        padding: 1.6rem 3rem;
     }
 `;
 
 export const Content = styled.div`
-    width: 316px;
+    max-width: 1120px;
     margin: 0 auto;
 
     display: flex;
     flex-direction: column;
 
+
+    > .banner{
+        position: relative;
+        display: flex;
+
+        max-width: 37.6rem;
+        height: 12rem;
+        margin-top: 44px;
+        border-radius: 2.9px;
+
+        background: linear-gradient(180deg, #091E26 0%, #00131C 100%);
+
+        img {
+            position: absolute;
+            bottom: 0;
+            left: -30px;
+        }
+
+        .contentBanner{
+            position: absolute;
+            right: 20px;
+            top: 30px;
+            h2{
+                max-width: 21.5rem;
+                font-size: 1.8rem;
+                font-weight: 600;
+            }
+            p{
+                max-width: 20rem;
+                font-size: 1.2rem;
+                font-weight: 400;
+            }
+        }
+    }
 `;

@@ -2,7 +2,6 @@ import { Container } from './styles';
 
 import { Stepper } from '../../components/Stepper';
 import { ButtonIncluir } from '../../components/ButtonIncluir';
-import { BsArrowRightShort, BsPencil } from "react-icons/bs";
 
 
 export function Cards({ data, image, ...rest}) {
