@@ -1,7 +1,7 @@
 import { Container, Content } from './styles';
 
 import { Header } from '../../components/Header';
-import { ButtonText } from '../../components/ButtonText';
+import { ButtonBack } from '../../components/ButtonBack';
 import { Button } from '../../components/Button';
 import { Footer } from '../../components/Footer';
 import { Tags } from '../../components/Tags';
@@ -17,7 +17,7 @@ export function Prato(prato, descricao, value) {
 
       <main>
         <Content>
-          <ButtonText title="Voltar"/>
+          <ButtonBack title="Voltar"/>
             
           <div class="prato">
             <img src={ravanello} alt="" />

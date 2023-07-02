@@ -1,7 +1,5 @@
 import { Container, Content } from './styles';
 
-import { FiChevronRight, FiChevronLeft  } from 'react-icons/fi';
-
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
 import { Section } from '../../components/Section';
@@ -43,30 +41,30 @@ export function Home() {
                                     descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim"
                                     value="47,99"
                                     />
+                                </div>
+                            </div>
+                        </Section>
+
+                        <Section title="Sobremesas">
+                            <div class="slides">
+                                <button class="arrow-left">&lt;</button>
+                                <button class="arrow-right">&gt;</button>
+                                <div class="cards">
                                     <Cards 
                                     image={ravanello}
                                     title="Salada Ravanello"
                                     descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim"
                                     value="47,99"
                                     />
-                                    <Cards 
-                                    image={ravanello}
-                                    title="Salada Ravanello"
-                                    descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim"
-                                    value="47,99"
-                                    />
-                                    <Cards 
-                                    image={ravanello}
-                                    title="Salada Ravanello"
-                                    descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim"
-                                    value="47,99"
-                                    />
-                                    <Cards 
-                                    image={ravanello}
-                                    title="Salada Ravanello"
-                                    descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim"
-                                    value="47,99"
-                                    />
+                                </div>
+                            </div>
+                        </Section>
+
+                        <Section title="Bebidas">
+                            <div class="slides">
+                                <button class="arrow-left">&lt;</button>
+                                <button class="arrow-right">&gt;</button>
+                                <div class="cards">
                                     <Cards 
                                     image={ravanello}
                                     title="Salada Ravanello"

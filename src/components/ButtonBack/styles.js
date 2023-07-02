@@ -11,7 +11,6 @@ export const Container = styled.button`
     > div{
         display: flex;
         align-items: center;
-        justify-content: center;
         gap: 11px;
     }
 `;

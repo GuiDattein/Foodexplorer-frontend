@@ -15,7 +15,7 @@ export function Cards({ title, descricao, value, image, ...rest}) {
                 </button>
                 <img src={image} alt="" />
                 <div class="details">
-                    <a>{title} &gt; </a>
+                    <a href='' >{title} &gt; </a>
                     <p> 
                         R$ {value}
                     </p>
@@ -34,7 +34,7 @@ export function Cards({ title, descricao, value, image, ...rest}) {
                 </button>
                 <img src={image} alt="" />
                 <div class="details">
-                    <a>{title} &gt; </a>
+                    <a href=''>{title} &gt; </a>
                     <p>
                         {descricao}
                     </p>
