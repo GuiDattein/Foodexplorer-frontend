@@ -32,122 +32,50 @@ export function Home() {
                         </div>
                     </div>
 
-                    <Section title="Refeições">
-                        <div class="slides">
-                            <button class="arrow-left">&lt;</button>
-                            <button class="arrow-right">&gt;</button>
-                            <div class="cards">
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
+                        <Section title="Refeições">
+                            <div class="slides">
+                                <button class="arrow-left">&lt;</button>
+                                <button class="arrow-right">&gt;</button>
+                                <div class="cards">
+                                    <Cards 
+                                    image={ravanello}
+                                    title="Salada Ravanello"
+                                    descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim"
+                                    value="47,99"
+                                    />
+                                    <Cards 
+                                    image={ravanello}
+                                    title="Salada Ravanello"
+                                    descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim"
+                                    value="47,99"
+                                    />
+                                    <Cards 
+                                    image={ravanello}
+                                    title="Salada Ravanello"
+                                    descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim"
+                                    value="47,99"
+                                    />
+                                    <Cards 
+                                    image={ravanello}
+                                    title="Salada Ravanello"
+                                    descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim"
+                                    value="47,99"
+                                    />
+                                    <Cards 
+                                    image={ravanello}
+                                    title="Salada Ravanello"
+                                    descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim"
+                                    value="47,99"
+                                    />
+                                    <Cards 
+                                    image={ravanello}
+                                    title="Salada Ravanello"
+                                    descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim"
+                                    value="47,99"
+                                    />
+                                </div>
                             </div>
-                        </div>
-                    </Section>
-
-                    <Section title="Pratos principais">
-                        <div class="slides">
-                            <button class="arrow-left">&lt;</button>
-                            <button class="arrow-right">&gt;</button>
-                            <div class="cards">
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                            </div>
-                        </div>
-                    </Section>
-
-                    <Section title="RBebidas">
-                        <div class="slides">
-                            <button class="arrow-left">&lt;</button>
-                            <button class="arrow-right">&gt;</button>
-                            <div class="cards">
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                                <Cards 
-                                image={ravanello}
-                                title="Salada Ravanello"
-                                value="47,99"
-                                />
-                            </div>
-                        </div>
-                    </Section>
+                        </Section>
                 </Content>
             </main>
 

@@ -27,7 +27,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-    max-width: 1120px;
+    max-width: 1300px;
     margin: 0 auto;
 
     display: flex;
@@ -39,7 +39,7 @@ export const Content = styled.div`
         display: flex;
         align-items: center;
 
-        max-width: 112rem;
+        max-width: 130rem;
         height: 26rem;
         margin-top: 164px;
         border-radius: 2.9px;
@@ -165,8 +165,8 @@ export const Content = styled.div`
             }      
             
             .cards{
-                    margin-left: 30px;
-                }
+                margin-left: 30px;
+            }
         }
     }
 `;

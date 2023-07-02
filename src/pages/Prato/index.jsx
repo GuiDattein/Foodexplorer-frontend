@@ -18,35 +18,39 @@ export function Prato(prato, descricao, value) {
       <main>
         <Content>
           <ButtonText title="Voltar"/>
-
-          <div class="descricao">
+            
+          <div class="prato">
             <img src={ravanello} alt="" />
-            <h2>{prato="Salada Ravanello"}</h2>
-            <p>
-              {descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim."}
-            </p>
           </div>
 
-          <div class="tags">
-              <Tags title="alface" />
-              <Tags title="cebola" />
-              <Tags title="pãonaan" />
-              <Tags title="pepino" />
-              <Tags title="rabanete" />
-              <Tags title="tomate" />
-          </div>
+          <div className="sobre">
+            <div class="descricao">
+              <h2>{prato="Salada Ravanello"}</h2>
+              <p>
+                {descricao="Rabanetes, folhas verdes e molho agridoce salpicados com gergelim. O pão naan dá um toque especial."}
+              </p>
+            </div>
 
-          <div class="pedir">
-            <Stepper/>
-            <Button img={Receipt} title="pedir - " /*loading*/>
-              <span>RS {value="47,99"}</span>
-            </Button>     
+            <div class="tags">
+                <Tags title="alface" />
+                <Tags title="cebola" />
+                <Tags title="pão naan" />
+                <Tags title="pepino" />
+                <Tags title="rabanete" />
+                <Tags title="tomate" />
+            </div>
 
+            <div class="pedir">
+              <Stepper/>
+              <Button title="pedir " /*loading*/>
+                <span>R$ {value="47,99"}</span>
+              </Button>
+            </div>
           </div>
         </Content>
       </main>
 
-      <Footer />
+    <Footer />
     </Container>
   )
 };
