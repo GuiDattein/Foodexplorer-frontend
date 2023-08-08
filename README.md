@@ -53,6 +53,7 @@
 
 ## Instalação
 
+!!É preciso ter o nodejs e o git previamente instalado em seu ambiente de trabalho
 ```bash
 # Faça o clone do repotório
   git clone (link desde repositório)
@@ -73,10 +74,10 @@ usuário:
 senha: 
 ```
 
-## ✔️ Autores
+## ✔️ Desenvolvido por
 
 - [Guilherme Marques Dattein](https://github.com/GuiDattein/)
 
 ## 📄 Referência
 
-- [Rockeseat](https://www.rocketseat.com.br/)
+- [Rockeseat/Explorer](https://www.rocketseat.com.br/)
