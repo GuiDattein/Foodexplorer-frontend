@@ -58,7 +58,9 @@
 # Faça o clone do repotório
   git clone (link desde repositório)
 
-# Acessar a pasta do projeto pelo terminal
+# Acesse a pasta do projeto em seu editor de código
+  # File > Open Folder ...
+  # Pelo terminal
   cd (caminho até a pasta)
 
 # Faça a instalação das depêndencias
