@@ -1,3 +1,5 @@
+
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 <div align="center"> 
   <h1>Food Explorer - Front-end</h1>
   O desafio foi desenvolver o "food explorer", um menu interativo para um restaurante fictício </br></br></br>
@@ -51,11 +53,14 @@
 
 ## Instalação
 
+!!É preciso ter o nodejs e o git previamente instalado em seu ambiente de trabalho
 ```bash
 # Faça o clone do repotório
   git clone (link desde repositório)
 
-# Acessar a pasta do projeto pelo terminal
+# Acesse a pasta do projeto em seu editor de código
+  # File > Open Folder ...
+  # Pelo terminal
   cd (caminho até a pasta)
 
 # Faça a instalação das depêndencias
@@ -71,10 +76,10 @@ usuário:
 senha: 
 ```
 
-## ✔️ Autores
+## ✔️ Desenvolvido por
 
 - [Guilherme Marques Dattein](https://github.com/GuiDattein/)
 
 ## 📄 Referência
 
-- [Rockeseat](https://www.rocketseat.com.br/)
+- [Rockeseat/Explorer](https://www.rocketseat.com.br/)
