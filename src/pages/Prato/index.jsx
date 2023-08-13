@@ -17,7 +17,7 @@ export function Prato(prato, descricao, value) {
 
       <main>
         <Content>
-          <ButtonBack title="Voltar"/>
+          <ButtonBack to="/" title="Voltar"/>
             
           <div class="prato">
             <img src={ravanello} alt="" />

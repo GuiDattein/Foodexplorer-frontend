@@ -1,4 +1,5 @@
 import { Container } from './styles';
+import { Link } from 'react-router-dom';
 
 import { Stepper } from '../../components/Stepper';
 import { Button } from '../../components/Button';
@@ -15,7 +16,7 @@ export function Cards({ title, descricao, value, image, ...rest}) {
                 </button>
                 <img src={image} alt="" />
                 <div class="details">
-                    <a href='' >{title} &gt; </a>
+                    <Link to="/prato/:id" >{title} &gt; </Link>
                     <p> 
                         R$ {value}
                     </p>
@@ -34,7 +35,7 @@ export function Cards({ title, descricao, value, image, ...rest}) {
                 </button>
                 <img src={image} alt="" />
                 <div class="details">
-                    <a href=''>{title} &gt; </a>
+                    <Link to="/prato/:id">{title} &gt; </Link>
                     <p>
                         {descricao}
                     </p>

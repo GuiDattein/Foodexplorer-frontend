@@ -1,4 +1,5 @@
 import { Container, Form } from './styles';
+import { Link } from 'react-router-dom';
 
 import { Logo } from '../../components/Logo';
 import { Input } from '../../components/Input';
@@ -29,7 +30,7 @@ export function SignOut(){
                 
 
                 <Button title="Criar conta" />
-                <ButtonText title="Já tenho uma conta" />
+                <ButtonText to="/" title="Já tenho uma conta" />
             </Form>
         </Container>
     );

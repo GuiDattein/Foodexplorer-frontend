@@ -6,6 +6,8 @@ import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
 import { ButtonBack } from '../../components/ButtonBack';
 import { Input } from '../../components/Input';
+import { Textarea } from '../../components/Textarea';
+import { PratosItem } from '../../components/PratosItem';
 
 export function AddDishes() {
     return(
@@ -16,7 +18,7 @@ export function AddDishes() {
                 <Content>
                     <Form>
                         <header>
-                            <ButtonBack title="Voltar"/>
+                            <ButtonBack to="/" title="Voltar"/>
                             <h1>Adicionar prato</h1>
                         </header>
 
@@ -37,7 +39,19 @@ export function AddDishes() {
                                     <option value="Bebidas">Bebidas</option>
                                 </select>
                             </label>
-
+                        </div>
+                        <div className="ingredientes">
+                            <label htmlFor="itens">
+                                Ingredientes
+                                <PratosItem value="Teste"  />
+                                <PratosItem isNew />
+                            </label>
+                        </div>
+                        <div className="description">
+                            <label htmlFor="Description">
+                                Descrição
+                                <Textarea Name="Description" id="Description" placeholder="Fale brevemente sobre o prato, seus ingredientes e preparação" type="text"/>
+                            </label>
                         </div>
 
                     </Form>          
