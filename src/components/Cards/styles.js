@@ -120,7 +120,7 @@ export const Container = styled.div`
             display: none;
         }
     }
-    @media(max-width: 800px){
+    @media(max-width: 799px){
         > .cards-desktop{
             display: none;
         }
