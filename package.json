@@ -27,5 +27,10 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
     "vite": "^4.3.9"
-  }
+  },
+  "description": "![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)\r <div align=\"center\"> \r   <h1>Food Explorer - Front-end</h1>\r   O desafio foi desenvolver o \"food explorer\", um menu interativo para um restaurante fictício </br></br></br>\r   <p>Link para visualizar no <a href=\"https://www.figma.com/file/Kg1qaLFNZy9dd0vxbGYjm9/food-explorer-v2-(Community)?node-id=5%3A980&mode=dev\" target=\"_blank\">figma</a></p>\r   </br></br>\r   <img src=\"https://github.com/GuiDattein/foodexplorer-frontend/assets/91683433/57987e04-1e25-4685-9005-cacf39cd981e\" />\r </div></br>",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
